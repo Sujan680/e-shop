@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="style3.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!------font icons------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    
+     <!--------------------navigation--------->
+     <nav class="navbar navbar-expand-lg navbar-black bg-white py-3 fixed-top">
+        <div class="container">
+          <h2>E-shop</h2>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class='bx bx-menu' ></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                
+              <li class="nav-item">
+                <a class="nav-link" href="index3.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html"></a><i class='bx bx-shopping-bag' ></i>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+      <section id="" class="pt-5 mt-5 container">
+        <h2 class="font-weight-bold pt-5">Shopping Cart</h2>
+        <hr>
+      </section>
+
+      <section id="cart-container" class="container my-3">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Products</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="bx bx-trash"></i></a></td>
+                    <td><img src="img/watches/watches1.jpg" alt=""></td>
+                    <td>
+                        <h5>
+                            Watch
+                        </h5>
+                    </td>
+                    <td>
+                        <h5>$65.00</h5>
+                    </td>
+                    <td>
+                        <input class="w-25 pl-1" value="1" type="number">
+                    </td>
+                    <td>
+                        <h5>$65.00</h5>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="bx bx-trash"></i></a></td>
+                    <td><img src="img/shoes/shoes2.jpg" alt=""></td>
+                    <td>
+                        <h5>
+                            Shoes
+                        </h5>
+                    </td>
+                    <td>
+                        <h5>$85.00</h5>
+                    </td>
+                    <td>
+                        <input class="w-25 pl-1" value="1" type="number">
+                    </td>
+                    <td>
+                        <h5>$85.00</h5>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="bx bx-trash"></i></a></td>
+                    <td><img src="img/clothes/jacket2.jpg" alt=""></td>
+                    <td>
+                        <h5>
+                            Jacket
+                        </h5>
+                    </td>
+                    <td>
+                        <h5>$75.00</h5>
+                    </td>
+                    <td>
+                        <input class="w-25 pl-1" value="1" type="number">
+                    </td>
+                    <td>
+                        <h5>$75.00</h5>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+
+      <section id="cart-bottom" class="container">
+        <div class="row">
+            <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+                <div>
+                    <h5>CUPON</h5>
+                    <p>Enter your cupon code if you have.</p>
+                    <input type="text" placeholder="Cupon Code">
+                    <button>Apply Cupon</button>
+                </div>
+            </div>
+            <div class="total col-lg-6 col-md-6 col-12 mb-4">
+                <div>
+                    <h5>CART TOTAL</h5>
+                    <div class="d-flex justify-content-between">
+                        <h6>Subtotal</h6>
+                        <p>$225.00</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6>Shipping</h6>
+                        <p>$100.00</p>
+                    </div>
+                    <hr class="second-hr">
+                    <div class="d-flex justify-content-between">
+                        <h6>Total</h6>
+                        <p>$325.00</p>
+                    </div>
+                    
+                    <button class="ml-auto">PRCEED TO CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--------------------------footer------------------------------->
+      <footer id="about" class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+          <div class="footer-one text-white col-lg-3 col-md-6 col-12">
+            <h2>E-shop</h2>
+            <p class="pt-3">Successfully starting an ecommerce company is a marathon,
+               not a sprint. It can take 18 to 24 months for your business to get off the
+                ground.It’s critical that you don’t measure the success of your business 
+                by your first-year profitability. </p>
+
+          </div>
+          <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+            <h5 class="pb-2">Featured</h5>
+            <ul class="text-uppercase list-unstlyed">
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Boys</a></li>
+              <li><a href="#">Girls</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Clothes</a></li>
+              <li><a href="#">Watches</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+            <h5 class="pb-2">Contact us</h5>
+              <div>
+                <h6 class="text-uppercase">Address</h6>
+                <p>Pokhara-14, Kaski, Nepal</p>
+              </div>
+              <div>
+                <h6 class="text-uppercase">Phone</h6>
+                <p>+977-61-504046</p>
+                <p>+977-61-504034</p>
+              </div>
+              <div>
+                <h6 class="text-uppercase">Email</h6>
+                <h6>@ myshop123@gmail.com</h6>
+              </div>
+          </div>
+
+         
+        </div>
+
+        <div class="copyright mt-5">
+          <div class="row container mx-auto">
+
+            <div class=" col-lg-3 col-md-6 col-12 mb-4">
+              <img src="img/payment.png" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12  text-nowrap mb-2">
+                <h6>@ My shop. All Right Reserved 2023.</h6>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <a href="www.facebook.com"><i class='bx bxl-facebook'></i></a>
+              <a href="www.instagram.com"><i class='bx bxl-instagram' ></i></a>
+              <a href="www.tiktok.com"><i class='bx bxl-tiktok' ></i></a>
+              <a href="www.twitter.com"><i class='bx bxl-twitter' ></i></a>
+          </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script>
+      const cartTable = document.querySelector('table tbody');
+const cartRows = cartTable.querySelectorAll('tr');
+const subtotalField = document.querySelector('.total h6:first-child');
+const shippingField = document.querySelector('.total div:nth-child(2) p');
+const totalField = document.querySelector('.total div:nth-child(4) p');
+const couponField = document.querySelector('.coupon input');
+const couponButton = document.querySelector('.coupon button');
+const checkoutButton = document.querySelector('#cart-bottom button');
+
+cartTable.addEventListener('input', updateCart);
+couponButton.addEventListener('click', applyCoupon);
+checkoutButton.addEventListener('click', checkoutCart);
+
+// Update the cart when the quantity of a product is changed
+function updateCart(e) {
+    const target = e.target;
+    if (target.tagName.toLowerCase() === 'input') {
+      const parentRow = target.closest('tr');
+      const priceField = parentRow.querySelector('h5:nth-child(4)');
+      const totalField = parentRow.querySelector('h5:last-child');
+      const price = parseFloat(priceField.textContent.replace('$', ''));
+      const quantity = parseInt(target.value);
+      const total = price * quantity;
+      totalField.textContent = '$' + total.toFixed(2);
+      updateTotal();
+    }
+  }
+  
+  // Apply a coupon code to the cart
+  function applyCoupon() {
+    const couponCode = couponField.value;
+    if (couponCode === 'DISCOUNT') {
+      const discount = 50;
+      const subtotal = parseFloat(subtotalField.textContent.replace('$', ''));
+      const shipping = parseFloat(shippingField.textContent.replace('$', ''));
+      const total = subtotal + shipping - discount;
+      totalField.textContent = '$' + total.toFixed(2);
+    }
+    couponField.value = '';
+  }
+  
+  // Checkout the cart and redirect to the checkout page
+  function checkoutCart() {
+    alert('Checkout is not implemented yet!');
+  }
+  
+  // Update the subtotal, shipping, and total of the cart
+  function updateTotal() {
+    let subtotal = 0;
+    cartRows.forEach(row => {
+      const totalField = row.querySelector('h5:last-child');
+      subtotal += parseFloat(totalField.textContent.replace('$', ''));
+    });
+    subtotalField.textContent = '$' + subtotal.toFixed(2);
+    shippingField.textContent = '$100.00';
+    totalField.textContent = '$' + (subtotal + 100).toFixed(2);
+  }
+
+  updateTotal();
+
+    </script>
+  
+
+</body>
+</html>
